@@ -1,0 +1,278 @@
+:root {
+  --text-color: #555555;
+  --title-color: #303030;
+  --second-text-color: #9da4bd;
+  --white-color: #ffffff;
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* -- ШАПКА -- */
+
+.header {
+  background-color: var(--title-color);
+}
+
+.header-link,
+.header-contacts-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--white-color);
+}
+
+/* -- ГЕРОЙ -- */
+
+.hero {
+  background-color: var(--accent-color);
+}
+
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--title-color);
+}
+
+.hero-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+.hero-bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+/* -- О НАС -- */
+
+.about-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.about-title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--title-color);
+}
+
+.about-bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/* -- ЦЕНЫ -- */
+
+.prices {
+  background-color: var(--title-color);
+}
+
+.prices-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+
+.prices-item-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+/* -- ПРЕИМУЩЕСТВА -- */
+
+.reasons-item-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--title-color);
+}
+
+.reasons-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: var(--title-color);
+}
+
+.reasons-top-text {
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.reasons-title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--title-color);
+}
+
+.reasons-bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/* -- МАСТЕРА -- */
+
+.masters-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.masters-title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--title-color);
+}
+
+.masters-names {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.masters-function {
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+/* -- ГАЛЕРЕЯ -- */
+
+.gallery-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+/* -- ЗАПИСЬ И КОНТАКТЫ -- */
+
+.online,
+.contacts {
+  background-color: var(--title-color);
+}
+
+.online-title,
+.contacts-title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+.contacts-item-link,
+.work-time-text {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+.work-time {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+/* -- ПОДВАЛ -- */
+
+.footer-copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--second-text-color);
+}
+
+.footer-item-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--title-color);
+}
