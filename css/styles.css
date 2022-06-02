@@ -615,17 +615,7 @@ img {
   flex-grow: 1;
   padding-top: 130px;
   padding-bottom: 130px;
-}
-
-.online-btn {
-  color: var(--white-color);
-  display: block;
-  transition: background-color 300ms ease-in-out;
-}
-
-.online-btn:hover,
-.online-btn:focus {
-  background-color: var(--accent-color);
+  padding-right: 40px;
 }
 
 .contacts {
@@ -644,6 +634,101 @@ img {
   letter-spacing: 0.05em;
   color: var(--white-color);
   margin-bottom: 40px;
+}
+
+.online-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 44px;
+}
+.input-field {
+  width: 265px;
+  height: 24px;
+  position: relative;
+}
+
+.online-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  background-color: transparent;
+  color: var(--second-text-color);
+
+  transition: border-color 300ms ease-in-out;
+}
+
+.online-input:focus {
+  border-color: var(--white-color);
+}
+
+.online-input:focus + .online-label {
+  color: var(--white-color);
+  transform: translateY(-100%);
+}
+
+.online-input:not(:placeholder-shown) + .online-label {
+  color: var(--white-color);
+  transform: translateY(-100%);
+}
+
+.online-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.4);
+
+  transition: transform 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.online-text-field {
+  position: relative;
+  height: 76px;
+  margin-bottom: 44px;
+}
+
+.online-mess {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  background-color: transparent;
+  color: var(--second-text-color);
+  resize: none;
+}
+
+.online-mess:focus {
+  border-color: var(--white-color);
+}
+
+.online-mess:focus + .online-label {
+  color: var(--white-color);
+  transform: translateY(-100%);
+}
+
+.online-mess:not(:placeholder-shown) + .online-label {
+  color: var(--white-color);
+  transform: translateY(-100%);
+}
+
+.online-btn {
+  color: var(--white-color);
+  padding-left: 38px;
+  padding-right: 38px;
+  display: block;
+  transition: background-color 300ms ease-in-out;
+}
+
+.online-btn:hover,
+.online-btn:focus {
+  background-color: var(--accent-color);
 }
 
 .contacts-item-link,

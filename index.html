@@ -323,7 +323,40 @@
       <div class="container">
         <section class="online">
           <h2 class="online-title">Онлайн-запись</h2>
-          <button type="button" class="online-btn btn">онлайн-запись</button>
+          <form class="online-form">
+            <div class="online-inputs">
+              <div class="input-field">
+                <input
+                  type="text"
+                  id="online-name"
+                  name="online-name"
+                  placeholder=" "
+                  class="online-input"
+                />
+                <label for="online-name" class="online-label">Имя*</label>
+              </div>
+              <div class="input-field">
+                <input
+                  type="tel"
+                  id="online-tel"
+                  name="online-tel"
+                  placeholder=" "
+                  class="online-input"
+                />
+                <label for="online-tel" class="online-label">Телефон*</label>
+              </div>
+            </div>
+            <div class="online-text-field">
+              <textarea
+                name="online-mess"
+                id="online-mess"
+                class="online-mess"
+                placeholder=" "
+              ></textarea>
+              <label for="online-mess" class="online-label">сообщение</label>
+            </div>
+            <button type="submit" class="online-btn btn">отправить</button>
+          </form>
         </section>
         <section class="contacts">
           <h2 class="contacts-title">Контакты</h2>
